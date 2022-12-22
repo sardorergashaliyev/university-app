@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                       TextButton(
                         onPressed: () async {
                           final Uri launchUri =
-                              Uri(scheme: 'tel', path: '+998913434331');
+                              Uri(scheme: 'tel', path: '+17829123847');
                           await launchUrl(launchUri);
                         },
                         child: const Text('number'),
